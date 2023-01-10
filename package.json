@@ -1,6 +1,6 @@
 {
-  "name": "cordova-plugin-file-downloader",
-  "version": "0.4.0",
+  "name": "nouman-file-downloader",
+  "version": "0.5.0",
   "description": "Downloads files to persistant Storage on your Phone, checks md5sum if you want, unzips packed files if necessary (For Android and iOS)",
   "cordova": {
     "id": "cordova-plugin-file-downloader",
@@ -18,11 +18,11 @@
     "ecosystem:cordova",
     "cordova-android",
     "cordova-ios",
-		"file",
-		"download",
-		"downloader",
-		"multiple",
-		"md5",
+    "file",
+    "download",
+    "downloader",
+    "multiple",
+    "md5",
     "unzip"
   ],
   "author": "Fabian Strachanski, Manuel Ramon Lopez Torres",
