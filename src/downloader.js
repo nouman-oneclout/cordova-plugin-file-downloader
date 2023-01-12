@@ -133,7 +133,7 @@ var Downloader = {
     }
     var fileObject = {
       url: url,
-      name: name || url.replace(/^.*\//, ""),
+      name: name,
       md5: md5
     };
     Downloader.downloadQueue.push(fileObject);
