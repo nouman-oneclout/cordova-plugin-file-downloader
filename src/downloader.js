@@ -200,7 +200,8 @@ var Downloader = {
    */
   transferFile: function (fileObject) {
     //console.log("tranfserFile");
-    var filePath = Downloader.localFolder.toURL() + "/" + fileObject.name;
+    console.log(Downloader.localFolder.toURL())
+    var filePath = Downloader.localFolder.toURL() + fileObject.name;
     Downloader.transfer = new FileTransfer();
     Downloader.transfer.onprogress = function (progressEvent) {
       if (progressEvent.lengthComputable) {
